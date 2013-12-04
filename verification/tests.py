@@ -41,6 +41,6 @@ TESTS = {
             "input": "wy4eu4ehxfh",
             "answer": "__LMP;",
             "explanation": ""
-        },
+        }
     ]
 }
