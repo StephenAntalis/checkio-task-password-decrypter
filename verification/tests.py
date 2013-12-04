@@ -31,12 +31,12 @@ TESTS = {
             "input": "jliajgawegireajger",
             "answer": "XINKKBS^B",
             "explanation": ""
-        }
+        },
         {
             "input": "4grwefwfegdr",
             "answer": "FCURCQ",
             "explanation": ""
-        }
+        },
         {
             "input": "wy4eu4ehxfh",
             "answer": "__LMP;",
