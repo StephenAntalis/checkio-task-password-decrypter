@@ -1,4 +1,4 @@
-def checkio(a):
+def checkio(data):
     """
         Decrypts the password
     """
@@ -6,6 +6,6 @@ def checkio(a):
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
-    assert checkio("w@AABGWA>eehurrag") == "Password1"
-    assert checkio("aGG*?^gZAihl") == "Monkey"
-    print('Done')
+    assert checkio(u"w@AABGWA>eehurrag") == "Password1"
+    assert checkio(u"aGG*?^gZAihl") == "Monkey"
+    print('The local tests are done')
