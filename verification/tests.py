@@ -11,36 +11,36 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": 'w@AABGWA>eehurrag',
-            "answer": 'Password1',
-            "explanation": ''
+            "input": ["w@AABGWA>eehurrag"],
+            "answer": ["Password1"],
+            "explanation": ""
         },
         {
-            "input": 'aGG*?^gZAihl',
-            "answer": 'Monkey',
-            "explanation": ''
+            "input": ["aGG*?^gZAihl"],
+            "answer": ["Monkey"],
+            "explanation": ""
         }
     ],
     "Extra": [
         {
-            "input": 'rfegrjewoigfwaef',
-            "answer": 'TCDPTMLX',
-            "explanation": ''
+            "input": ["rfegrjewoigfwaef"],
+            "answer": ["TCDPTMLX"],
+            "explanation": ""
         },
         {
-            "input": 'jliajgawegireajger',
-            "answer": 'XINKKBS^B',
-            "explanation": ''
+            "input": ["jliajgawegireajger"],
+            "answer": ["XINKKBS^B"],
+            "explanation": ""
         },
         {
-            "input": '4grwefwfegdr',
-            "answer": 'FCURCQ',
-            "explanation": ''
+            "input": ["4grwefwfegdr"],
+            "answer": ["FCURCQ"],
+            "explanation": ""
         },
         {
-            "input": 'wy4eu4ehxfh',
-            "answer": '__LMP;',
-            "explanation": ''
+            "input": ["wy4eu4ehxfh"],
+            "answer": ["__LMP;"],
+            "explanation": ""
         }
     ]
 }
