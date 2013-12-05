@@ -24,22 +24,22 @@ TESTS = {
     "Extra": [
         {
             "input": ["rfegrjewoigfwaef"],
-            "answer": ["TCDPTMLX"],
+            "answer": "TCDPTMLX",
             "explanation": ""
         },
         {
             "input": ["jliajgawegireajger"],
-            "answer": ["XINKKBS^B"],
+            "answer": "XINKKBS^B",
             "explanation": ""
         },
         {
             "input": ["4grwefwfegdr"],
-            "answer": ["FCURCQ"],
+            "answer": "FCURCQ",
             "explanation": ""
         },
         {
             "input": ["wy4eu4ehxfh"],
-            "answer": ["__LMP;"],
+            "answer": "__LMP;",
             "explanation": ""
         }
     ]
