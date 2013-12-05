@@ -1,4 +1,4 @@
-def checkio(a):
+def checkio(data):
     """
         Decrypts the password
     """
@@ -8,4 +8,4 @@ def checkio(a):
 if __name__ == '__main__':
     assert checkio("w@AABGWA>eehurrag") == "Password1"
     assert checkio("aGG*?^gZAihl") == "Monkey"
-    print('Done')
+    print('The local tests are done')

@@ -11,34 +11,34 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": ["w@AABGWA>eehurrag"],
+            "input": "w@AABGWA>eehurrag",
             "answer": "Password1",
             "explanation": ""
         },
         {
-            "input": ["aGG*?^gZAihl"],
+            "input": "aGG*?^gZAihl",
             "answer": "Monkey",
             "explanation": ""
         }
     ],
     "Extra": [
         {
-            "input": ["rfegrjewoigfwaef"],
+            "input": "rfegrjewoigfwaef",
             "answer": "TCDPTMLX",
             "explanation": ""
         },
         {
-            "input": ["jliajgawegireajger"],
+            "input": "jliajgawegireajger",
             "answer": "XINKKBS^B",
             "explanation": ""
         },
         {
-            "input": ["4grwefwfegdr"],
+            "input": "4grwefwfegdr",
             "answer": "FCURCQ",
             "explanation": ""
         },
         {
-            "input": ["wy4eu4ehxfh"],
+            "input": "wy4eu4ehxfh",
             "answer": "__LMP;",
             "explanation": ""
         }
