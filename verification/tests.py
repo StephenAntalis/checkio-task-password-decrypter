@@ -11,13 +11,13 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": r"w@AABGWA>eehurrag",
-            "answer": r"Password1",
+            "input": ["w@AABGWA>eehurrag"],
+            "answer": "Password1",
             "explanation": ""
         },
         {
-            "input": r"aGG*?^gZAihl",
-            "answer": r"Monkey",
+            "input": ["aGG*?^gZAihl"],
+            "answer": "Monkey",
             "explanation": ""
         }
     ],
