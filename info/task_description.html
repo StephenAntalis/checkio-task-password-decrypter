@@ -15,7 +15,7 @@
 <p>
     Unfortunately, this means only Jack’s account is capable of initiating the patch. Since this
     exploit is capable of compromising all data on that particular network, the company has informed
-    you that you must immedately install the patch onto the exposed network. Fortunately you know 
+    you that you must immediately install the patch onto the exposed network. Fortunately you know
     that his flash drive contains a means of extracting his primary network password. You opened 
     the drive and immediately recognize that both of the files on the drive are encrypted using AES
     encryption. On a hunch, you attempt to decrypt both of the files using your personal private key. 
@@ -38,11 +38,11 @@
     last 6 characters <b>inverted</b> (all 1s to 0s and all 0s to 1). Then these numbers will be converted 
     back to their base 10 ascii characters and output the message in the order of outside to inside."</i></p>
 <p>
-    <strong>Input: </strong> String
+    <strong>Input: </strong> An encrypted password, a string (unicode).
 </p>
 
 <p>
-    <strong>Output: </strong> String 
+    <strong>Output: </strong> The decrypted password, a string.
 </p>
 
 
@@ -52,12 +52,12 @@
         <strong>Example:</strong>
     </p>
     <pre class="brush: python">
-checkio(w@AABGWA>eehurrag) == Password1
-checkio(aGG*?^gZAihl) == Monkey
+checkio("w@AABGWA>eehurrag") == "Password1"
+checkio("aGG*?^gZAihl") == "Monkey"
     </pre>
 </div>
 
 <p class="for_info_only">
     <strong>How it is used: </strong>
-    <i>Decryption</i>
+    This task shows you how is working some basis of decryption.
 </p>
